@@ -51,11 +51,6 @@ Root/
 - Contains subdirectories for each camera dataset (`"623"`, `"684"`, `"9730"`, `"10917"`)
 - Ground truth masks with the naming convention: `[camera number]-mask.png`
 - This folder contains only subsets of 10 images from each dataset.
-
-#### Day-Night Classified
-- Contains subdirectories for each camera dataset (`"623"`, `"684"`, `"9730"`, `"10917"`)
-- Each image is labeled with the first letter of the file name (d - Day / n - Night).
-- Used to generate and test the mean intensity threshold for time of dat classification.
 <p>&nbsp;</p>
 
 ### Modules

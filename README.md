@@ -37,12 +37,6 @@ Root/
 │   ├── 623-mask.png
 │   └── ...
 │
-├── Day-Night Classified/
-│   ├── 623/
-│   ├── 684/
-│   ├── 9730/
-│   └── 10917/
-│
 ├── Main.py
 ├── SkyRegionDetector.py
 ├── PredictionData.py
@@ -56,7 +50,7 @@ Root/
 #### Skyfinder Dataset
 - Contains subdirectories for each camera dataset (`"623"`, `"684"`, `"9730"`, `"10917"`)
 - Ground truth masks with the naming convention: `[camera number]-mask.png`
-- Due to its large size, this folder is **not included** in the final submission.
+- This folder contains only subsets of 10 images from each dataset.
 
 #### Day-Night Classified
 - Contains subdirectories for each camera dataset (`"623"`, `"684"`, `"9730"`, `"10917"`)
